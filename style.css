@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    padding-bottom: 10px;
+    width: 250px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+.box h1{
+    text-align: center;
+    font-size: 24px;
+    background-color: #CCCCFF;
+}
+.box span{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+.box span b{
+    width: 20%;
+}
+.box span input{
+    width: 80%;
+}
+#btn{
+    width: 100px;
+    height: 25px;
+    margin: 0px 0px 10px 10px;
+}
+.box h2{
+    margin-left: 10px;
+}
